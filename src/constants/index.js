@@ -3,9 +3,11 @@ import {
     backend,
     creator,
     web,
+    python,
     javascript,
     typescript,
     html,
+    flask,
     css,
     reactjs,
     redux,
@@ -25,7 +27,8 @@ import {
     crud,
     gravador,
     threejs,
-    eMobile
+    eMobile,
+    ia_flappybird
   } from "../assets";
   
   export const navLinks = [
@@ -47,17 +50,21 @@ import {
     {
       title: "Desenvolvedor Web e Mobile",
       icon: web,
+    },
+    {
+      title: "Cientista de Dados",
+      icon: mobile,
     }
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Flask",
+      icon: flask,
     },
     {
       name: "JavaScript",
@@ -180,6 +187,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "IA FlappyBird",
+      description:
+        "Uma Inteligência Artificial que aprende a jogar FlappyBird.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Pygame",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Machine Learning",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ia_flappybird,
+      source_code_link: "https://github.com/JVMC42/ai_flappybird",
+    },
     {
       name: "Ecommerce",
       description:

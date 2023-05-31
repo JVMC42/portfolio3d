@@ -8,6 +8,8 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import python from './tech/python.png';
+import flask from './tech/flask.png';
 import mysql from "./tech/mysql.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -32,6 +34,7 @@ import nextStore from "./next-store.jpeg";
 import crud from "./crud.gif";
 import gravador from "./gravador.jpeg";
 import eMobile from "./eMobile.gif"
+import ia_flappybird from "./ia_flappybird.gif"
 
 export {
   logo,
@@ -43,6 +46,8 @@ export {
   menu,
   close,
   css,
+  python,
+  flask,
   docker,
   nextjs,
   figma,
@@ -62,6 +67,7 @@ export {
   starbucks,
   tesla,
   nextStore,
+  ia_flappybird,
   crud,
   gravador,
   eMobile
